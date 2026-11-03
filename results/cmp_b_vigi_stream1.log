@@ -1,0 +1,13 @@
+[b] 1.0s 첫 read 실패 (연결 끊김?)
+[b]    10s 처리 45장  나이 Nonems  PTS증가 -901ms  읽은 프레임 245
+[b]    20s 처리 95장  나이 Nonems  PTS증가 -904ms  읽은 프레임 496
+[b]    30s 처리 145장  나이 Nonems  PTS증가 -902ms  읽은 프레임 747
+[b]    40s 처리 195장  나이 Nonems  PTS증가 -864ms  읽은 프레임 997
+[b]    50s 처리 245장  나이 Nonems  PTS증가 -871ms  읽은 프레임 1248
+[b]    60s 처리 295장  나이 Nonems  PTS증가 -910ms  읽은 프레임 1499
+[b]    70s 처리 345장  나이 Nonems  PTS증가 -917ms  읽은 프레임 1750
+[b]    80s 처리 395장  나이 Nonems  PTS증가 -891ms  읽은 프레임 2000
+[b]    90s 처리 445장  나이 Nonems  PTS증가 -897ms  읽은 프레임 2251
+[b]   100s 처리 495장  나이 Nonems  PTS증가 -902ms  읽은 프레임 2502
+[b]   110s 처리 545장  나이 Nonems  PTS증가 -878ms  읽은 프레임 2752
+{"src": "vigi:stream1", "mode": "b", "delay": 0.2, "dur": 120, "transport": "tcp", "used": 592, "used_fps": 4.93, "read": 2993, "dropped": 2401, "cpu_proc_pct": 55.4, "read_fails": 1, "first_fail_s": 1.0, "age_ms": {"10s": null, "30s": null, "60s": null, "90s": null, "115s": null}, "grow_ms": {"10s": -902, "30s": -904, "60s": -906, "90s": -904, "115s": -870}, "reconnects": 0}

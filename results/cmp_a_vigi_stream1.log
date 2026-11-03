@@ -1,0 +1,13 @@
+[a]    10s 처리 50장  나이 Nonems  PTS증가 8170ms  읽은 프레임 50
+[a]    20s 처리 99장  나이 Nonems  PTS증가 16285ms  읽은 프레임 99
+[a]    30s 처리 148장  나이 Nonems  PTS증가 24425ms  읽은 프레임 148
+[a]    40s 처리 197장  나이 Nonems  PTS증가 32526ms  읽은 프레임 197
+[a]    50s 처리 246장  나이 Nonems  PTS증가 40629ms  읽은 프레임 246
+[a]    61s 처리 295장  나이 Nonems  PTS증가 48732ms  읽은 프레임 295
+[a]    71s 처리 344장  나이 Nonems  PTS증가 56827ms  읽은 프레임 344
+[a]    81s 처리 393장  나이 Nonems  PTS증가 64960ms  읽은 프레임 393
+[a]    91s 처리 442장  나이 Nonems  PTS증가 73064ms  읽은 프레임 442
+[h264 @ 0xa4b11b0] cabac decode of qscale diff failed at 113 28
+[h264 @ 0xa4b11b0] error while decoding MB 113 28, bytestream -1
+[a] 94.8s 첫 read 실패 (연결 끊김?)
+{"src": "vigi:stream1", "mode": "a", "delay": 0.2, "dur": 120, "transport": "tcp", "used": 461, "used_fps": 3.84, "read": 461, "dropped": 0, "cpu_proc_pct": 9.2, "read_fails": 252, "first_fail_s": 94.8, "age_ms": {"10s": null, "30s": null, "60s": null, "90s": null, "115s": null}, "grow_ms": {"10s": 7998, "30s": 24166, "60s": 48336, "90s": 72409, "115s": null}}

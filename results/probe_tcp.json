@@ -1,0 +1,70 @@
+{
+ "sec": 20.0,
+ "rows": [
+  {
+   "src": "vigi:stream1",
+   "ok": true,
+   "res": "2560x1440",
+   "open_s": 1.22,
+   "first_frame_s": 1.28,
+   "fps_prop": 25.0,
+   "fps": 26.19,
+   "frames": 524,
+   "fails": 0,
+   "cpu_proc_pct": 58.7,
+   "cpu_sys_pct": 19.0,
+   "transport": "tcp"
+  },
+  {
+   "src": "vigi:stream2",
+   "ok": true,
+   "res": "848x480",
+   "open_s": 1.16,
+   "first_frame_s": 1.18,
+   "fps_prop": 25.0,
+   "fps": 26.13,
+   "frames": 523,
+   "fails": 0,
+   "cpu_proc_pct": 8.9,
+   "cpu_sys_pct": 15.3,
+   "transport": "tcp"
+  },
+  {
+   "src": "fake",
+   "ok": true,
+   "res": "1280x720",
+   "open_s": 0.0,
+   "first_frame_s": 0.01,
+   "fps_prop": 25.0,
+   "fps": 30.03,
+   "frames": 601,
+   "fails": 0,
+   "cpu_proc_pct": 18.7,
+   "cpu_sys_pct": 24.6,
+   "transport": null,
+   "recv_lat_ms": {
+    "mean": 16.3,
+    "p95": 20.3
+   }
+  },
+  {
+   "src": "media/fake20s.mp4",
+   "ok": true,
+   "res": "1280x720",
+   "open_s": 0.02,
+   "first_frame_s": 0.03,
+   "fps_prop": 30.0,
+   "fps": 981.54,
+   "frames": 599,
+   "fails": 51,
+   "cpu_proc_pct": 262.2,
+   "cpu_sys_pct": 49.2,
+   "transport": null,
+   "recv_lat_ms": {
+    "mean": 73182.3,
+    "p95": 81881.7
+   }
+  }
+ ],
+ "ts": "2026-10-28 09:29:46"
+}

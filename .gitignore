@@ -1,0 +1,13 @@
+과제안내.md
+.DS_Store
+__pycache__/
+*.jpg
+*.jpeg
+*.png
+*.mp4
+*.wav
+*.pt
+*.engine
+*.onnx
+.camera_url*
+*.env
