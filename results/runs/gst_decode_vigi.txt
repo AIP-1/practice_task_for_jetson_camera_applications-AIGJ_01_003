@@ -1,0 +1,16 @@
+2026-11-03 15:31:48 시작 stream1
+hw (nvv4l2decoder) stream1 60초 측정 중...
+NvMMLiteOpen : Block : BlockType = 261 
+NvMMLiteBlockCreate : Block : BlockType = 261 
+{'decoder': 'hw', 'element': 'nvv4l2decoder', 'secs': 60.1, 'fps': 25.0, 'frames': 1502, 'first_frame_s': 0.55, 'proc_cpu_pct_1core': 4.4, 'board_cpu_pct': 35.9, 'max_rss_mb': 145}
+cpu (openh264dec) stream1 60초 측정 중...
+{'decoder': 'cpu', 'element': 'openh264dec', 'secs': 60.1, 'fps': 25.0, 'frames': 1501, 'first_frame_s': 0.2, 'proc_cpu_pct_1core': 29.6, 'board_cpu_pct': 40.9, 'max_rss_mb': 145}
+Opening in BLOCKING MODE 
+2026-11-03 15:34:11 시작 stream2
+hw (nvv4l2decoder) stream2 60초 측정 중...
+NvMMLiteOpen : Block : BlockType = 261 
+NvMMLiteBlockCreate : Block : BlockType = 261 
+{'decoder': 'hw', 'element': 'nvv4l2decoder', 'secs': 60.1, 'fps': 25.0, 'frames': 1502, 'first_frame_s': 0.41, 'proc_cpu_pct_1core': 4.3, 'board_cpu_pct': 46.6, 'max_rss_mb': 63}
+cpu (openh264dec) stream2 60초 측정 중...
+{'decoder': 'cpu', 'element': 'openh264dec', 'secs': 60.1, 'fps': 25.0, 'frames': 1502, 'first_frame_s': 0.2, 'proc_cpu_pct_1core': 6.0, 'board_cpu_pct': 48.4, 'max_rss_mb': 63}
+Opening in BLOCKING MODE 

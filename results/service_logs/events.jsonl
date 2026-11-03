@@ -38,3 +38,7 @@
 {"ts": "2026-11-03T07:29:03+09:00", "event": "camera_fresh", "cam": "lab1"}
 {"ts": "2026-11-03T08:52:07+09:00", "event": "stop", "uptime_s": 5132}
 {"ts": "2026-11-03T08:53:07+09:00", "event": "start", "cams": ["lab1=vigi"], "model": "yolo11n.pt", "imgsz": 640, "window": 30.0, "stat": "median"}
+{"ts": "2026-11-03T15:33:17+09:00", "event": "stop", "uptime_s": 24022}
+{"ts": "2026-11-03T16:22:24+09:00", "event": "start", "cams": ["lab1=vigi"], "model": "yolo11n.pt", "imgsz": 640, "window": 30.0, "stat": "median"}
+{"ts": "2026-11-03T16:27:42+09:00", "event": "stop", "uptime_s": 325}
+{"ts": "2026-11-03T16:30:10+09:00", "event": "start", "cams": ["lab1=vigi"], "model": "yolo11n.pt", "imgsz": 640, "window": 30.0, "stat": "median"}

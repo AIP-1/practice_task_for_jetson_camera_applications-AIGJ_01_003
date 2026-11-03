@@ -1,0 +1,10 @@
+{"ts": "2026-11-03T16:35:23", "kind": "start", "service": "http://localhost:8095", "checks": "10:00,15:00", "night": "02:00-05:00"}
+{"ts": "2026-11-03T16:35:24", "kind": "alert_on", "alert": "카메라 이상", "detail": "lab1 카메라 정상"}
+{"ts": "2026-11-03T16:35:24", "kind": "alert_on", "alert": "점검 누락", "detail": "10:00, 15:00"}
+{"ts": "2026-11-03T16:35:57", "kind": "check", "space": "lab1", "human": 6, "service": 0, "error": -6}
+{"ts": "2026-11-03T16:35:57", "kind": "alert_on", "alert": "보정 필요", "detail": "lab1: 사람 6명 vs 서비스 0명 (오차 -6)"}
+{"ts": "2026-11-03T16:46:41", "kind": "start", "service": "http://localhost:8095", "checks": "10:00,15:00", "night": "02:00-05:00"}
+{"ts": "2026-11-03T16:47:31", "kind": "check", "space": "lab1", "human": 7, "service": 1, "error": -6}
+{"ts": "2026-11-03T16:47:31", "kind": "alert_on", "alert": "보정 필요", "detail": "lab1: 사람 7명 vs 서비스 1명 (오차 -6)"}
+{"ts": "2026-11-03T16:47:41", "kind": "check", "space": "lab1", "human": 6, "service": 1, "error": -5}
+{"ts": "2026-11-03T16:48:10", "kind": "check", "space": "lab1", "human": 1, "service": 0, "error": -1}

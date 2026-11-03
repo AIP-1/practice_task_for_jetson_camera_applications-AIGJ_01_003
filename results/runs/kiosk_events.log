@@ -1,0 +1,354 @@
+nohup: ignoring input
+{"ts": 1793611201.1, "who": "#3", "label": "지나감"}
+{"ts": 1793659344.69, "who": "#2", "label": "지나감"}
+{"ts": 1793659346.26, "who": "#2", "label": "힐끗 봄"}
+{"ts": 1793659349.89, "who": "#2", "label": "지나감"}
+{"ts": 1793659352.49, "who": "#2", "label": "관심 있음"}
+{"ts": 1793659357.04, "who": "#2", "label": "머무름"}
+{"ts": 1793659357.61, "who": "#2", "label": "지나감"}
+{"ts": 1793659361.08, "who": "#3", "label": "지나감"}
+{"ts": 1793659362.95, "who": "#3", "label": "힐끗 봄"}
+{"ts": 1793659366.28, "who": "#4", "label": "지나감"}
+{"ts": 1793659374.84, "who": "#5", "label": "지나감"}
+{"ts": 1793659375.81, "who": "#5", "label": "힐끗 봄"}
+{"ts": 1793659478.69, "who": "#6", "label": "지나감"}
+{"ts": 1793659479.96, "who": "#6", "label": "힐끗 봄"}
+{"ts": 1793659482.01, "who": "#6", "label": "관심 있음"}
+{"ts": 1793659486.31, "who": "#6", "label": "지나감"}
+{"ts": 1793659493.46, "who": "#7", "label": "지나감"}
+{"ts": 1793659494.27, "who": "#7", "label": "힐끗 봄"}
+{"ts": 1793659499.07, "who": "#7", "label": "관심 있음"}
+{"ts": 1793659505.52, "who": "#8", "label": "지나감"}
+{"ts": 1793659511.41, "who": "#8", "label": "관심 있음"}
+{"ts": 1793659519.32, "who": "#8", "label": "머무름"}
+{"ts": 1793659520.18, "who": "#8", "label": "지나감"}
+{"ts": 1793659524.48, "who": "#9", "label": "지나감"}
+{"ts": 1793659531.96, "who": "#9", "label": "관심 있음"}
+{"ts": 1793659533.79, "who": "#9", "label": "머무름"}
+{"ts": 1793659537.08, "who": "#9", "label": "지나감"}
+{"ts": 1793659697.52, "who": "#10", "label": "지나감"}
+{"ts": 1793659699.61, "who": "#10", "label": "힐끗 봄"}
+{"ts": 1793659701.93, "who": "#10", "label": "관심 있음"}
+{"ts": 1793659706.95, "who": "#10", "label": "머무름"}
+{"ts": 1793659718.38, "who": "#10", "label": "지나감"}
+{"ts": 1793659719.45, "who": "#10", "label": "머무름"}
+{"ts": 1793659729.16, "who": "#10", "label": "지나감"}
+{"ts": 1793659858.57, "who": "#11", "label": "지나감"}
+{"ts": 1793659863.78, "who": "#12", "label": "지나감"}
+{"ts": 1793659868.73, "who": "#13", "label": "지나감"}
+{"ts": 1793659872.96, "who": "#14", "label": "지나감"}
+{"ts": 1793659873.9, "who": "#14", "label": "힐끗 봄"}
+{"ts": 1793659878.78, "who": "#15", "label": "지나감"}
+{"ts": 1793659879.57, "who": "#15", "label": "힐끗 봄"}
+{"ts": 1793659883.12, "who": "#16", "label": "지나감"}
+{"ts": 1793659884.47, "who": "#16", "label": "힐끗 봄"}
+{"ts": 1793659894.85, "who": "#17", "label": "지나감"}
+{"ts": 1793659899.22, "who": "#17", "label": "관심 있음"}
+{"ts": 1793659905.91, "who": "#18", "label": "지나감"}
+{"ts": 1793659907.0, "who": "#18", "label": "힐끗 봄"}
+{"ts": 1793659909.01, "who": "#18", "label": "관심 있음"}
+{"ts": 1793659912.42, "who": "#18", "label": "지나감"}
+{"ts": 1793659916.14, "who": "#19", "label": "지나감"}
+{"ts": 1793659940.51, "who": "#20", "label": "지나감"}
+{"ts": 1793659945.2, "who": "#20", "label": "관심 있음"}
+{"ts": 1793659950.36, "who": "#20", "label": "머무름"}
+{"ts": 1793659953.4, "who": "#20", "label": "관심 있음"}
+{"ts": 1793659955.12, "who": "#20", "label": "머무름"}
+{"ts": 1793659958.29, "who": "#20", "label": "관심 있음"}
+{"ts": 1793659960.41, "who": "#20", "label": "머무름"}
+{"ts": 1793659967.01, "who": "#21", "label": "지나감"}
+{"ts": 1793659968.53, "who": "#21", "label": "힐끗 봄"}
+{"ts": 1793659970.37, "who": "#21", "label": "힐끗 봄"}
+{"ts": 1793659970.78, "who": "#21", "label": "관심 있음"}
+{"ts": 1793659982.06, "who": "#21", "label": "머무름"}
+{"ts": 1793659986.58, "who": "#22", "label": "지나감"}
+{"ts": 1793659988.63, "who": "#22", "label": "힐끗 봄"}
+{"ts": 1793659988.97, "who": "#22", "label": "힐끗 봄"}
+{"ts": 1793659992.0, "who": "#22", "label": "관심 있음"}
+{"ts": 1793660002.48, "who": "#22", "label": "머무름"}
+{"ts": 1793660413.79, "who": "#23", "label": "지나감"}
+{"ts": 1793660415.86, "who": "#23", "label": "힐끗 봄"}
+{"ts": 1793660417.9, "who": "#23", "label": "관심 있음"}
+{"ts": 1793660446.24, "who": "#23", "label": "머무름"}
+{"ts": 1793660446.42, "who": "#23", "label": "지나감"}
+{"ts": 1793660451.08, "who": "#24", "label": "지나감"}
+{"ts": 1793660452.57, "who": "#24", "label": "힐끗 봄"}
+{"ts": 1793660454.56, "who": "#24", "label": "관심 있음"}
+{"ts": 1793660477.15, "who": "#24", "label": "머무름"}
+{"ts": 1793660481.74, "who": "#25", "label": "지나감"}
+{"ts": 1793660483.24, "who": "#25", "label": "힐끗 봄"}
+{"ts": 1793660485.36, "who": "#25", "label": "관심 있음"}
+{"ts": 1793660503.27, "who": "#25", "label": "머무름"}
+{"ts": 1793660939.61, "who": "#1", "label": "지나감"}
+{"ts": 1793660940.42, "who": "#1", "label": "힐끗 봄"}
+{"ts": 1793660943.96, "who": "#2", "label": "지나감"}
+{"ts": 1793660951.67, "who": "#3", "label": "지나감"}
+{"ts": 1793660958.06, "who": "#4", "label": "지나감"}
+{"ts": 1793660963.27, "who": "#5", "label": "지나감"}
+{"ts": 1793660964.06, "who": "#5", "label": "힐끗 봄"}
+{"ts": 1793660968.42, "who": "#6", "label": "지나감"}
+{"ts": 1793660969.57, "who": "#6", "label": "힐끗 봄"}
+{"ts": 1793660974.79, "who": "#7", "label": "지나감"}
+{"ts": 1793660975.58, "who": "#7", "label": "힐끗 봄"}
+{"ts": 1793660982.69, "who": "#7", "label": "지나감"}
+{"ts": 1793660990.17, "who": "#7", "label": "머무름"}
+{"ts": 1793660991.95, "who": "#7", "label": "관심 있음"}
+{"ts": 1793660994.03, "who": "#7", "label": "머무름"}
+{"ts": 1793660994.6, "who": "#7", "label": "지나감"}
+{"ts": 1793661000.47, "who": "#8", "label": "지나감"}
+{"ts": 1793661001.27, "who": "#8", "label": "힐끗 봄"}
+{"ts": 1793661003.28, "who": "#8", "label": "관심 있음"}
+{"ts": 1793661006.91, "who": "#8", "label": "머무름"}
+{"ts": 1793661007.42, "who": "#8", "label": "지나감"}
+{"ts": 1793661015.52, "who": "#8", "label": "머무름"}
+{"ts": 1793661017.69, "who": "#8", "label": "관심 있음"}
+{"ts": 1793661018.57, "who": "#8", "label": "머무름"}
+{"ts": 1793661023.28, "who": "#8", "label": "관심 있음"}
+{"ts": 1793661025.99, "who": "#8", "label": "머무름"}
+{"ts": 1793661028.1, "who": "#8", "label": "지나감"}
+{"ts": 1793661032.27, "who": "#9", "label": "지나감"}
+{"ts": 1793661034.02, "who": "#9", "label": "힐끗 봄"}
+{"ts": 1793661039.78, "who": "#9", "label": "관심 있음"}
+{"ts": 1793661043.48, "who": "#9", "label": "머무름"}
+{"ts": 1793661044.58, "who": "#9", "label": "지나감"}
+{"ts": 1793661047.2, "who": "#10", "label": "지나감"}
+{"ts": 1793661049.0, "who": "#10", "label": "힐끗 봄"}
+{"ts": 1793661050.99, "who": "#10", "label": "관심 있음"}
+{"ts": 1793661057.34, "who": "#10", "label": "머무름"}
+{"ts": 1793661058.15, "who": "#10", "label": "지나감"}
+{"ts": 1793661390.47, "who": "#11", "label": "지나감"}
+{"ts": 1793661391.6, "who": "#11", "label": "힐끗 봄"}
+{"ts": 1793661393.63, "who": "#11", "label": "관심 있음"}
+{"ts": 1793661423.9, "who": "#11", "label": "지나감"}
+{"ts": 1793661429.28, "who": "#12", "label": "지나감"}
+{"ts": 1793661432.1, "who": "#12", "label": "관심 있음"}
+{"ts": 1793661452.07, "who": "#12", "label": "지나감"}
+{"ts": 1793661455.84, "who": "#13", "label": "지나감"}
+{"ts": 1793661456.68, "who": "#13", "label": "힐끗 봄"}
+{"ts": 1793661458.67, "who": "#13", "label": "관심 있음"}
+{"ts": 1793661464.22, "who": "#13", "label": "관심 있음"}
+{"ts": 1793661645.95, "who": "#14", "label": "지나감"}
+{"ts": 1793661655.44, "who": "#14", "label": "머무름"}
+{"ts": 1793661675.46, "who": "#15", "label": "지나감"}
+{"ts": 1793661683.26, "who": "#15", "label": "지나감"}
+{"ts": 1793661686.21, "who": "#16", "label": "지나감"}
+{"ts": 1793661804.46, "who": "#17", "label": "지나감"}
+{"ts": 1793661813.98, "who": "#17", "label": "머무름"}
+{"ts": 1793661822.59, "who": "#17", "label": "지나감"}
+{"ts": 1793661827.07, "who": "#18", "label": "지나감"}
+{"ts": 1793661836.68, "who": "#18", "label": "머무름"}
+{"ts": 1793661847.36, "who": "#18", "label": "지나감"}
+{"ts": 1793661854.81, "who": "#20", "label": "지나감"}
+{"ts": 1793661864.56, "who": "#20", "label": "머무름"}
+{"ts": 1793663300.51, "who": "#26", "label": "지나감"}
+nohup: ignoring input
+aiot/kiosk/lab1/event {"ts": 1793685701.15, "who": "#108", "label": "지나감"}
+aiot/kiosk/lab1/event {"ts": 1793685702.45, "who": "#108", "label": "한팔들기"}
+aiot/kiosk/lab1/event {"ts": 1793685702.68, "who": "#108", "label": "힐끗 봄"}
+aiot/kiosk/lab1/event {"ts": 1793685704.51, "who": "#108", "label": "한팔들기"}
+aiot/kiosk/lab1/event {"ts": 1793685706.82, "who": "#108", "label": "한팔들기"}
+aiot/kiosk/lab1/event {"ts": 1793685707.69, "who": "#108", "label": "머무름"}
+aiot/kiosk/lab1/event {"ts": 1793685709.06, "who": "#108", "label": "한팔들기"}
+aiot/kiosk/lab1/event {"ts": 1793685711.34, "who": "#108", "label": "한팔들기"}
+aiot/kiosk/lab1/event {"ts": 1793685713.68, "who": "#108", "label": "한팔들기"}
+aiot/kiosk/lab1/event {"ts": 1793685715.66, "who": "#108", "label": "한팔들기"}
+aiot/kiosk/lab1/event {"ts": 1793685717.5, "who": "#108", "label": "손흔들기"}
+aiot/kiosk/lab1/event {"ts": 1793685719.73, "who": "#108", "label": "한팔들기"}
+aiot/kiosk/lab1/event {"ts": 1793685722.32, "who": "#108", "label": "한팔들기"}
+aiot/kiosk/lab1/event {"ts": 1793685724.91, "who": "#108", "label": "한팔들기"}
+aiot/kiosk/lab1/event {"ts": 1793685727.33, "who": "#108", "label": "한팔들기"}
+aiot/kiosk/lab1/event {"ts": 1793685727.47, "who": "#108", "label": "손흔들기"}
+aiot/kiosk/lab1/event {"ts": 1793685730.08, "who": "#108", "label": "만세"}
+aiot/kiosk/lab1/event {"ts": 1793685731.48, "who": "#108", "label": "손흔들기"}
+aiot/kiosk/lab1/event {"ts": 1793685732.46, "who": "#108", "label": "만세"}
+aiot/kiosk/lab1/event {"ts": 1793685734.68, "who": "#108", "label": "만세"}
+aiot/kiosk/lab1/event {"ts": 1793685737.02, "who": "#108", "label": "만세"}
+aiot/kiosk/lab1/event {"ts": 1793685739.52, "who": "#108", "label": "만세"}
+aiot/kiosk/lab1/event {"ts": 1793685740.77, "who": "#108", "label": "손흔들기"}
+aiot/kiosk/lab1/event {"ts": 1793685741.43, "who": "#108", "label": "손흔들기"}
+aiot/kiosk/lab1/event {"ts": 1793685741.9, "who": "#108", "label": "만세"}
+aiot/kiosk/lab1/event {"ts": 1793685744.31, "who": "#108", "label": "만세"}
+aiot/kiosk/lab1/event {"ts": 1793685745.34, "who": "#108", "label": "관심 있음"}
+aiot/kiosk/lab1/event {"ts": 1793685745.46, "who": "#108", "label": "손흔들기"}
+aiot/kiosk/lab1/event {"ts": 1793685746.14, "who": "#108", "label": "손흔들기"}
+aiot/kiosk/lab1/event {"ts": 1793685746.34, "who": "#108", "label": "머무름"}
+aiot/kiosk/lab1/event {"ts": 1793685746.6, "who": "#108", "label": "만세"}
+aiot/kiosk/lab1/event {"ts": 1793685748.73, "who": "#108", "label": "만세"}
+aiot/kiosk/lab1/event {"ts": 1793685749.49, "who": "#108", "label": "관심 있음"}
+aiot/kiosk/lab1/event {"ts": 1793685751.02, "who": "#108", "label": "만세"}
+aiot/kiosk/lab1/event {"ts": 1793685751.68, "who": "#108", "label": "머무름"}
+aiot/kiosk/lab1/event {"ts": 1793685753.14, "who": "#108", "label": "지나감"}
+aiot/kiosk/lab1/event {"ts": 1793686178.57, "who": "#109", "label": "지나감"}
+aiot/kiosk/lab1/event {"ts": 1793686185.33, "who": "#110", "label": "지나감"}
+aiot/kiosk/lab1/event {"ts": 1793686191.66, "who": "#111", "label": "지나감"}
+aiot/kiosk/lab1/event {"ts": 1793686199.08, "who": "#112", "label": "지나감"}
+aiot/kiosk/lab1/event {"ts": 1793686205.54, "who": "#113", "label": "지나감"}
+aiot/kiosk/lab1/event {"ts": 1793686211.95, "who": "#114", "label": "지나감"}
+aiot/kiosk/lab1/event {"ts": 1793686277.59, "who": "#115", "label": "지나감"}
+aiot/kiosk/lab1/event {"ts": 1793686284.3, "who": "#116", "label": "지나감"}
+aiot/kiosk/lab1/event {"ts": 1793686290.2, "who": "#117", "label": "지나감"}
+aiot/kiosk/lab1/event {"ts": 1793686323.52, "who": "#118", "label": "지나감"}
+aiot/kiosk/lab1/event {"ts": 1793686330.56, "who": "#119", "label": "지나감"}
+aiot/kiosk/lab1/event {"ts": 1793686338.46, "who": "#120", "label": "지나감"}
+aiot/kiosk/lab1/event {"ts": 1793686609.11, "who": "#121", "label": "머무름"}
+aiot/kiosk/lab1/event {"ts": 1793686768.94, "who": "#122", "label": "지나감"}
+aiot/kiosk/lab1/event {"ts": 1793686784.37, "who": "#122", "label": "지나감"}
+aiot/kiosk/lab1/event {"ts": 1793686784.49, "who": "#122", "label": "머무름"}
+aiot/kiosk/lab1/event {"ts": 1793686798.9, "who": "#122", "label": "지나감"}
+aiot/kiosk/lab1/event {"ts": 1793686860.6, "who": "#123", "label": "지나감"}
+aiot/kiosk/lab1/event {"ts": 1793686869.98, "who": "#123", "label": "머무름"}
+aiot/kiosk/lab1/event {"ts": 1793686898.99, "who": "#123", "label": "지나감"}
+aiot/kiosk/lab1/event {"ts": 1793686908.78, "who": "#124", "label": "지나감"}
+aiot/kiosk/lab1/event {"ts": 1793686918.01, "who": "#124", "label": "머무름"}
+aiot/kiosk/lab1/event {"ts": 1793687398.88, "who": "#125", "label": "지나감"}
+aiot/kiosk/lab1/event {"ts": 1793687421.49, "who": "#126", "label": "지나감"}
+aiot/kiosk/lab1/event {"ts": 1793687803.48, "who": "#127", "label": "지나감"}
+aiot/kiosk/lab1/event {"ts": 1793687811.45, "who": "#128", "label": "지나감"}
+aiot/kiosk/lab1/event {"ts": 1793687824.2, "who": "#128", "label": "머무름"}
+aiot/kiosk/lab1/event {"ts": 1793687824.37, "who": "#128", "label": "지나감"}
+aiot/kiosk/lab1/event {"ts": 1793687824.43, "who": "#128", "label": "머무름"}
+aiot/kiosk/lab1/event {"ts": 1793687827.67, "who": "#128", "label": "지나감"}
+aiot/kiosk/lab1/event {"ts": 1793687849.23, "who": "#130", "label": "지나감"}
+aiot/kiosk/lab1/event {"ts": 1793687894.4, "who": "#133", "label": "지나감"}
+aiot/kiosk/lab1/event {"ts": 1793687898.89, "who": "#134", "label": "지나감"}
+aiot/kiosk/lab1/event {"ts": 1793687903.95, "who": "#134", "label": "힐끗 봄"}
+aiot/kiosk/lab1/event {"ts": 1793687905.13, "who": "#134", "label": "힐끗 봄"}
+aiot/kiosk/lab1/event {"ts": 1793688163.81, "who": "#137", "label": "한팔들기"}
+aiot/kiosk/lab1/event {"ts": 1793688183.95, "who": "#140", "label": "손흔들기"}
+aiot/kiosk/lab1/event {"ts": 1793688197.08, "who": "#140", "label": "지나감"}
+aiot/kiosk/lab1/event {"ts": 1793688197.57, "who": "#140", "label": "머무름"}
+aiot/kiosk/lab1/event {"ts": 1793688198.12, "who": "#140", "label": "지나감"}
+aiot/kiosk/lab1/event {"ts": 1793688198.18, "who": "#140", "label": "머무름"}
+aiot/kiosk/lab1/event {"ts": 1793688202.05, "who": "#140", "label": "지나감"}
+aiot/kiosk/lab1/event {"ts": 1793688218.4, "who": "#141", "label": "지나감"}
+aiot/kiosk/lab1/event {"ts": 1793688233.89, "who": "#142", "label": "지나감"}
+aiot/kiosk/lab1/event {"ts": 1793688250.39, "who": "#145", "label": "지나감"}
+aiot/kiosk/lab1/event {"ts": 1793688454.85, "who": "#147", "label": "지나감"}
+aiot/kiosk/lab1/event {"ts": 1793688456.03, "who": "#147", "label": "머무름"}
+aiot/kiosk/lab1/event {"ts": 1793688462.82, "who": "#147", "label": "지나감"}
+aiot/kiosk/lab1/event {"ts": 1793688464.73, "who": "#147", "label": "머무름"}
+aiot/kiosk/lab1/event {"ts": 1793688500.41, "who": "#149", "label": "지나감"}
+aiot/kiosk/lab1/event {"ts": 1793688507.02, "who": "#150", "label": "지나감"}
+aiot/kiosk/lab1/event {"ts": 1793688507.55, "who": "#150", "label": "지나감"}
+aiot/kiosk/lab1/event {"ts": 1793688537.61, "who": "#153", "label": "지나감"}
+aiot/kiosk/lab1/event {"ts": 1793688546.72, "who": "#153", "label": "머무름"}
+aiot/kiosk/lab1/event {"ts": 1793688555.26, "who": "#153", "label": "지나감"}
+aiot/kiosk/lab1/event {"ts": 1793688565.4, "who": "#154", "label": "지나감"}
+aiot/kiosk/lab1/event {"ts": 1793688571.18, "who": "#155", "label": "지나감"}
+aiot/kiosk/lab1/event {"ts": 1793689160.7, "who": "#159", "label": "지나감"}
+aiot/kiosk/lab1/event {"ts": 1793689169.6, "who": "#160", "label": "지나감"}
+aiot/kiosk/lab1/event {"ts": 1793689169.71, "who": "#160", "label": "지나감"}
+aiot/kiosk/lab1/event {"ts": 1793689175.96, "who": "#161", "label": "지나감"}
+aiot/kiosk/lab1/event {"ts": 1793689222.12, "who": "#162", "label": "지나감"}
+aiot/kiosk/lab1/event {"ts": 1793689425.61, "who": "#164", "label": "지나감"}
+aiot/kiosk/lab1/event {"ts": 1793689425.66, "who": "#164", "label": "머무름"}
+aiot/kiosk/lab1/event {"ts": 1793689426.47, "who": "#164", "label": "지나감"}
+aiot/kiosk/lab1/event {"ts": 1793689521.32, "who": "#167", "label": "지나감"}
+aiot/kiosk/lab1/event {"ts": 1793689522.01, "who": "#167", "label": "지나감"}
+aiot/kiosk/lab1/event {"ts": 1793689525.82, "who": "#167", "label": "머무름"}
+aiot/kiosk/lab1/event {"ts": 1793689526.66, "who": "#167", "label": "지나감"}
+aiot/kiosk/lab1/event {"ts": 1793689527.64, "who": "#167", "label": "머무름"}
+aiot/kiosk/lab1/event {"ts": 1793689527.81, "who": "#167", "label": "지나감"}
+aiot/kiosk/lab1/event {"ts": 1793689528.42, "who": "#167", "label": "머무름"}
+aiot/kiosk/lab1/event {"ts": 1793689534.09, "who": "#167", "label": "힐끗 봄"}
+aiot/kiosk/lab1/event {"ts": 1793689535.87, "who": "#167", "label": "머무름"}
+aiot/kiosk/lab1/event {"ts": 1793689539.58, "who": "#167", "label": "힐끗 봄"}
+aiot/kiosk/lab1/event {"ts": 1793690312.43, "who": "#174", "label": "지나감"}
+aiot/kiosk/lab1/event {"ts": 1793690336.47, "who": "#176", "label": "머무름"}
+aiot/kiosk/lab1/event {"ts": 1793690341.9, "who": "#176", "label": "손흔들기"}
+aiot/kiosk/lab1/event {"ts": 1793690342.87, "who": "#176", "label": "손흔들기"}
+aiot/kiosk/lab1/event {"ts": 1793690378.57, "who": "#180", "label": "지나감"}
+aiot/kiosk/lab1/event {"ts": 1793690441.15, "who": "#183", "label": "지나감"}
+aiot/kiosk/lab1/event {"ts": 1793690448.69, "who": "#183", "label": "지나감"}
+aiot/kiosk/lab1/event {"ts": 1793690449.5, "who": "#183", "label": "지나감"}
+aiot/kiosk/lab1/event {"ts": 1793690450.51, "who": "#183", "label": "머무름"}
+aiot/kiosk/lab1/event {"ts": 1793690452.77, "who": "#183", "label": "지나감"}
+aiot/kiosk/lab1/event {"ts": 1793690461.85, "who": "#183", "label": "머무름"}
+aiot/kiosk/lab1/event {"ts": 1793690462.79, "who": "#183", "label": "지나감"}
+aiot/kiosk/lab1/event {"ts": 1793690462.86, "who": "#183", "label": "머무름"}
+aiot/kiosk/lab1/event {"ts": 1793690462.92, "who": "#183", "label": "지나감"}
+aiot/kiosk/lab1/event {"ts": 1793690467.79, "who": "#183", "label": "머무름"}
+nohup: ignoring input
+aiot/kiosk/lab1/event {"ts": 1793692476.19, "who": "#10", "label": "지나감"}
+aiot/kiosk/lab1/event {"label":"연결시험"}
+aiot/kiosk/lab1/event {"ts": 1793692648.39, "who": "#13", "label": "지나감"}
+aiot/kiosk/lab1/event {"ts": 1793692655.51, "who": "#13", "label": "머무름"}
+aiot/kiosk/lab1/event {"ts": 1793692656.8, "who": "#13", "label": "지나감"}
+aiot/kiosk/lab1/event {"ts": 1793692657.44, "who": "#11", "label": "지나감"}
+aiot/kiosk/lab1/event {"ts": 1793692658.2, "who": "#13", "label": "머무름"}
+aiot/kiosk/lab1/event {"ts": 1793692659.25, "who": "#11", "label": "힐끗 봄"}
+aiot/kiosk/lab1/event {"ts": 1793692661.88, "who": "#11", "label": "지나감"}
+aiot/kiosk/lab1/event {"ts": 1793692663.21, "who": "#11", "label": "머무름"}
+aiot/kiosk/lab1/event {"ts": 1793692663.45, "who": "#11", "label": "지나감"}
+aiot/kiosk/lab1/event {"ts": 1793692664.43, "who": "#11", "label": "머무름"}
+aiot/kiosk/lab1/event {"ts": 1793692664.67, "who": "#11", "label": "지나감"}
+aiot/kiosk/lab1/event {"ts": 1793692666.15, "who": "#11", "label": "머무름"}
+aiot/kiosk/lab1/event {"ts": 1793692668.56, "who": "#13", "label": "지나감"}
+aiot/kiosk/lab1/event {"ts": 1793692668.69, "who": "#13", "label": "머무름"}
+aiot/kiosk/lab1/event {"ts": 1793692668.75, "who": "#13", "label": "지나감"}
+aiot/kiosk/lab1/event {"ts": 1793692668.8, "who": "#13", "label": "머무름"}
+aiot/kiosk/lab1/event {"ts": 1793692668.97, "who": "#13", "label": "지나감"}
+aiot/kiosk/lab1/event {"ts": 1793692669.03, "who": "#13", "label": "머무름"}
+aiot/kiosk/lab1/event {"ts": 1793692669.09, "who": "#13", "label": "지나감"}
+aiot/kiosk/lab1/event {"ts": 1793692670.15, "who": "#13", "label": "머무름"}
+aiot/kiosk/lab1/event {"ts": 1793692671.15, "who": "#11", "label": "지나감"}
+aiot/kiosk/lab1/event {"ts": 1793692698.02, "who": "#14", "label": "지나감"}
+aiot/kiosk/lab1/event {"ts": 1793692699.71, "who": "#15", "label": "지나감"}
+aiot/kiosk/lab1/event {"ts": 1793692702.71, "who": "#17", "label": "지나감"}
+aiot/kiosk/lab1/event {"ts": 1793692766.87, "who": "#20", "label": "지나감"}
+aiot/kiosk/lab1/event {"ts": 1793692772.4, "who": "#20", "label": "머무름"}
+aiot/kiosk/lab1/event {"ts": 1793692773.06, "who": "#20", "label": "손흔들기"}
+aiot/kiosk/lab1/event {"ts": 1793692777.72, "who": "#20", "label": "손흔들기"}
+aiot/kiosk/lab1/event {"ts": 1793692778.99, "who": "#20", "label": "손흔들기"}
+aiot/kiosk/lab1/event {"ts": 1793692779.75, "who": "#20", "label": "지나감"}
+aiot/kiosk/lab1/event {"ts": 1793692779.82, "who": "#20", "label": "머무름"}
+aiot/kiosk/lab1/event {"ts": 1793692781.46, "who": "#20", "label": "손흔들기"}
+aiot/kiosk/lab1/event {"ts": 1793692782.94, "who": "#20", "label": "지나감"}
+aiot/kiosk/lab1/event {"ts": 1793692784.73, "who": "#20", "label": "머무름"}
+aiot/kiosk/lab1/event {"ts": 1793692787.32, "who": "#20", "label": "손흔들기"}
+aiot/kiosk/lab1/event {"ts": 1793692788.23, "who": "#20", "label": "지나감"}
+aiot/kiosk/lab1/event {"ts": 1793692834.87, "who": "#24", "label": "지나감"}
+aiot/kiosk/lab1/event {"ts": 1793692838.94, "who": "#24", "label": "힐끗 봄"}
+aiot/kiosk/lab1/event {"ts": 1793692839.82, "who": "#24", "label": "손흔들기"}
+aiot/kiosk/lab1/event {"ts": 1793692848.11, "who": "#24", "label": "머무름"}
+aiot/kiosk/lab1/event {"ts": 1793692848.24, "who": "#24", "label": "힐끗 봄"}
+aiot/kiosk/lab1/event {"ts": 1793692858.55, "who": "#25", "label": "지나감"}
+aiot/kiosk/lab1/event {"ts": 1793694860.63, "who": "#1", "label": "지나감"}
+aiot/kiosk/lab1/event {"ts": 1793694862.3, "who": "#1", "label": "손흔들기"}
+aiot/kiosk/lab1/event {"ts": 1793694992.53, "who": "#2", "label": "지나감"}
+aiot/kiosk/lab1/event {"ts": 1793694993.38, "who": "#2", "label": "힐끗 봄"}
+aiot/kiosk/lab1/event {"ts": 1793695050.7, "who": "#2", "label": "머무름"}
+aiot/kiosk/lab1/event {"ts": 1793695051.36, "who": "#2", "label": "지나감"}
+aiot/kiosk/lab1/event {"ts": 1793695063.51, "who": "#2", "label": "머무름"}
+aiot/kiosk/lab1/event {"ts": 1793695068.85, "who": "#2", "label": "지나감"}
+aiot/kiosk/lab1/event {"ts": 1793695072.0, "who": "#2", "label": "머무름"}
+aiot/kiosk/lab1/event {"ts": 1793695083.3, "who": "#2", "label": "지나감"}
+aiot/kiosk/lab1/event {"ts": 1793695084.01, "who": "#2", "label": "머무름"}
+aiot/kiosk/lab1/event {"ts": 1793695089.55, "who": "#2", "label": "지나감"}
+aiot/kiosk/lab1/event {"ts": 1793695090.18, "who": "#2", "label": "머무름"}
+aiot/kiosk/lab1/event {"ts": 1793695091.41, "who": "#2", "label": "지나감"}
+aiot/kiosk/lab1/event {"ts": 1793695108.1, "who": "#2", "label": "지나감"}
+aiot/kiosk/lab1/event {"ts": 1793695156.31, "who": "#6", "label": "한팔들기"}
+aiot/kiosk/lab1/event {"ts": 1793695156.74, "who": "#6", "label": "지나감"}
+aiot/kiosk/lab1/event {"ts": 1793695206.8, "who": "#15", "label": "지나감"}
+aiot/kiosk/lab1/event {"ts": 1793695207.79, "who": "#14", "label": "지나감"}
+aiot/kiosk/lab1/event {"ts": 1793695207.79, "who": "#14+#15", "label": "악수"}
+aiot/kiosk/lab1/event {"ts": 1793695209.17, "who": "#14", "label": "힐끗 봄"}
+aiot/kiosk/lab1/event {"ts": 1793695209.68, "who": "#15", "label": "머무름"}
+aiot/kiosk/lab1/event {"ts": 1793695210.14, "who": "#15", "label": "지나감"}
+aiot/kiosk/lab1/event {"ts": 1793695211.14, "who": "#14", "label": "지나감"}
+aiot/kiosk/lab1/event {"ts": 1793695211.43, "who": "#15", "label": "힐끗 봄"}
+aiot/kiosk/lab1/event {"ts": 1793695211.77, "who": "#14", "label": "관심 있음"}
+aiot/kiosk/lab1/event {"ts": 1793695211.88, "who": "#14", "label": "지나감"}
+aiot/kiosk/lab1/event {"ts": 1793695212.0, "who": "#14", "label": "손흔들기"}
+aiot/kiosk/lab1/event {"ts": 1793695212.0, "who": "#14", "label": "관심 있음"}
+aiot/kiosk/lab1/event {"ts": 1793695212.59, "who": "#15", "label": "머무름"}
+aiot/kiosk/lab1/event {"ts": 1793695214.02, "who": "#14", "label": "지나감"}
+aiot/kiosk/lab1/event {"ts": 1793695214.36, "who": "#15", "label": "관심 있음"}
+aiot/kiosk/lab1/event {"ts": 1793695214.71, "who": "#15", "label": "머무름"}
+aiot/kiosk/lab1/event {"ts": 1793695220.0, "who": "#17", "label": "지나감"}
+aiot/kiosk/lab1/event {"ts": 1793695222.5, "who": "#16+#17", "label": "악수"}
+aiot/kiosk/lab1/event {"ts": 1793695226.92, "who": "#16+#17", "label": "악수"}
+aiot/kiosk/lab1/event {"ts": 1793695228.63, "who": "#17", "label": "머무름"}
+aiot/kiosk/lab1/event {"ts": 1793695233.37, "who": "#16+#17", "label": "악수"}
+aiot/kiosk/lab1/event {"ts": 1793695237.72, "who": "#16", "label": "지나감"}

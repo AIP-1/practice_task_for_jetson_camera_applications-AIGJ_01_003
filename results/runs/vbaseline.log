@@ -1,0 +1,29 @@
+/home/team2-2/eg2/lib/python3.12/site-packages/torch/cuda/__init__.py:371: UserWarning: Found GPU0 Orin which is of compute capability (CC) 8.7.
+The following list shows the CCs this version of PyTorch was built for and the hardware CCs it supports:
+- 8.0 which supports hardware CC >=8.0,<9.0 except {8.7}
+- 9.0 which supports hardware CC >=9.0,<10.0
+- 10.0 which supports hardware CC >=10.0,<11.0 except {10.1}
+- 11.0 which supports hardware CC >=11.0,<12.0
+- 12.0 which supports hardware CC >=12.0,<13.0
+  _warn_unsupported_code(d, device_cc, code_ccs)
+B=6cm Z=1.0m 성공 12/12 평균오차 0.041m
+B=6cm Z=2.0m 성공 12/12 평균오차 0.109m
+B=6cm Z=3.0m 성공 12/12 평균오차 0.240m
+B=6cm Z=4.0m 성공 12/12 평균오차 0.177m
+B=6cm Z=5.0m 성공 12/12 평균오차 0.422m
+B=12cm Z=1.0m 성공 12/12 평균오차 0.025m
+B=12cm Z=2.0m 성공 12/12 평균오차 0.045m
+B=12cm Z=3.0m 성공 12/12 평균오차 0.113m
+B=12cm Z=4.0m 성공 12/12 평균오차 0.182m
+B=12cm Z=5.0m 성공 12/12 평균오차 0.106m
+### 과제 5 심화 — 기준선 6cm vs 12cm (가상 시험, 정렬형 스테레오, 어깨 시차)
+
+| 거리 Z (m) | 6cm: 성공 · 평균 |오차| · 오차율 | 12cm: 성공 · 평균 |오차| · 오차율 | 오차 비 (6cm ÷ 12cm) | 이론 ΔZ 6cm / 12cm (Δd 실측) |
+|---|---|---|---|---|
+| 1 | 12/12 · 0.041m · 4.1% | 12/12 · 0.025m · 2.5% | 1.7 | 0.055m (Δd 3.18px) / 0.024m (Δd 2.72px) |
+| 2 | 12/12 · 0.109m · 5.4% | 12/12 · 0.045m · 2.3% | 2.4 | 0.126m (Δd 1.82px) / 0.048m (Δd 1.40px) |
+| 3 | 12/12 · 0.240m · 8.0% | 12/12 · 0.113m · 3.8% | 2.1 | 0.303m (Δd 1.94px) / 0.129m (Δd 1.64px) |
+| 4 | 12/12 · 0.177m · 4.4% | 12/12 · 0.182m · 4.5% | 1.0 | 0.227m (Δd 0.82px) / 0.207m (Δd 1.49px) |
+| 5 | 12/12 · 0.422m · 8.4% | 12/12 · 0.106m · 2.1% | 4.0 | 0.407m (Δd 0.94px) / 0.132m (Δd 0.61px) |
+
+가상 시험(합성 영상): 카메라 2대 1280x720 초점거리 960px, 높이 1.2m, 기울기 0°, 평행 배치. bus.jpg에서 오린 사람 3명(키 1.7m 세운 판), 화면마다 독립 노이즈 σ=6, yolo11n-pose, 키포인트 신뢰도 0.5, 거리마다 12번(좌우 위치 무작위). 오차 = Z_측정 − Z_정답.

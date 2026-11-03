@@ -8,12 +8,12 @@ Jetson Orin Nano Super 한 대와 카메라 2대(VIGI C540-W IP 카메라, Logit
 
 | 과제 | 결과 |
 |---|---|
-| 1 카메라 연동 | 최신 1장 리더 (b)로 2분 뒤 지연 **96초 → 1초 미만**. 재연결 1.2~2.0초 |
-| 2 물체 인식 | TensorRT FP16 **5.1ms·60fps** (PyTorch 25.1ms), INT8 mAP −0.025. 비COCO 5종: 재라벨 4/5, YOLOE 최대 3/5 |
-| 3 재실 인원 | 서비스 v1(MQTT retain 10초). 군중 데이터 MAE 16.2 → 10.4(설정) → 3.1(보정). 12시간 빈 방 오판 0/716 |
-| 4 행동 패턴 | 키오스크 판정기 가동. 안정화로 깜빡임 21 → 8, 올림 기준 변경으로 만세 63.7% → 93.4% |
-| 5 거리 측정 | 가상 세 지점 오차 0.1 / 0.2 / 0.0%. 방 좌표 방식 2대 보정 재투영 0.44 / 0.39px |
-| 6 응용 서비스 | **12시간 무중단**(718/720행, 재연결 0), 재부팅 후 10~13초 복귀, 영상 저장 0건, 평균 9.1W |
+| 1 카메라 연동 | 최신 1장 리더 (b)로 2분 뒤 지연 **96초 → 1초 미만**. 재연결 1.2~2.0초. 하드웨어 디코딩으로 메인 스트림 CPU 29.6% → 4.4% |
+| 2 물체 인식 | TensorRT FP16 **5.1ms·60fps** (PyTorch 25.1ms), INT8 mAP −0.025. 실제 카메라 조명×거리 검출률 95~100%. 비COCO 5종: 재라벨 4/5, YOLOE 최대 3/5 |
+| 3 재실 인원 | 서비스 v1(MQTT retain 10초). 군중 데이터 MAE 16.2 → 10.4(설정) → 3.1(보정). 12시간 빈 방 오판 0/716. 수동 점검 감시기가 6명 차이를 잡아 '보정 필요' |
+| 4 행동 패턴 | 키오스크 판정기 가동. 안정화로 깜빡임 21 → 8, 만세 63.7% → 93.4%, 악수 기준 완화 뒤 두 쌍 모두 판정 |
+| 5 거리 측정 | 가상 시험 세 지점 오차 0.1 / 0.2 / 0.0%, 기준선 12cm가 6cm보다 정확. 방 좌표 방식 2대 보정 재투영 0.44 / 0.39px |
+| 6 응용 서비스 | **12시간 무중단**(718/720행, 재연결 0), 재부팅 후 10~13초 복귀, 영상 저장 0건, 평균 9.1W. 세 프로그램을 합치면 메모리 3,356 → 1,693MB |
 
 ## 문서
 
@@ -32,7 +32,7 @@ Jetson Orin Nano Super 한 대와 카메라 2대(VIGI C540-W IP 카메라, Logit
 | `code/camsrc.py`, `probe.py`, `reader_compare.py`, `reconnect_test.py`, `fakecam.py`, `viewer.py` | 과제 1: 공통 입력 모듈(최신 1장 리더 + 자동 재연결), 연결 시험, (a)/(b) 비교, 재연결 시험, 가짜 카메라, 브라우저 뷰어 |
 | `code/service/occupancy_service.py`, `occupancy.service` | 과제 3·6: 재실 인원 서비스와 systemd 유닛 |
 | `code/service/pose_app.py`, `pose_model.py`, `pose-service.service` | 과제 4·6: 키오스크 동작·행동 판정 서비스와 systemd 유닛 |
-| `code/tools/` | 과제 1~5 시험 스크립트 (벤치마크 `bench2.py`, 조명×거리 `light2.py`, 선 통과 `line2.py`, 개방 어휘 `vocab2.py`, 재실 평가 `occ_eval.py`·`occ_calib.py`, 계수 비교 `vcount.py`, 가상 스테레오 `vstereo.py`·`vprox.py`, 12시간 요약 `occ_summary.py` 등) |
+| `code/tools/` | 과제 1~6 시험 스크립트 (디코딩 비교 `gst_decode_bench.py`·`dec_compare.py`, 벤치마크 `bench2.py`, 조명×거리 `light_dist.py`(실측)·`light2.py`(가상 시험), 선 통과 `line_count.py`·`line2.py`, 개방 어휘 `vocab2.py`·`app.py`, 재실 평가 `occ_eval.py`·`occ_calib.py`, 계수 비교 `vcount.py`·`vhybrid.py`, 재실 감시 `occ_monitor.py`, 스테레오 `vstereo.py`·`vprox.py`·`vbaseline.py`·`vwall.py`, 합치기 `merge_bench.py`, 12시간 요약 `occ_summary.py` 등. 이름이 `v`로 시작하는 것은 가상 시험) |
 
 ## 결과 파일
 

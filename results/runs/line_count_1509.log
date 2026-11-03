@@ -1,0 +1,18 @@
+/home/team2-2/eg2/lib/python3.12/site-packages/torch/cuda/__init__.py:371: UserWarning: Found GPU0 Orin which is of compute capability (CC) 8.7.
+The following list shows the CCs this version of PyTorch was built for and the hardware CCs it supports:
+- 8.0 which supports hardware CC >=8.0,<9.0 except {8.7}
+- 9.0 which supports hardware CC >=9.0,<10.0
+- 10.0 which supports hardware CC >=10.0,<11.0 except {10.1}
+- 11.0 which supports hardware CC >=11.0,<12.0
+- 12.0 which supports hardware CC >=12.0,<13.0
+  _warn_unsupported_code(d, device_cc, code_ccs)
+OUT #3  합계 IN 0 / OUT 1
+IN  #4  합계 IN 1 / OUT 1
+OUT #5  합계 IN 1 / OUT 2
+IN  #6  합계 IN 2 / OUT 2
+OUT #7  합계 IN 2 / OUT 3
+IN  #8  합계 IN 3 / OUT 3
+OUT #9  합계 IN 3 / OUT 4
+IN  #11  합계 IN 4 / OUT 4
+OUT #12  합계 IN 4 / OUT 5
+끝: IN 4 / OUT 5, 20.4 fps

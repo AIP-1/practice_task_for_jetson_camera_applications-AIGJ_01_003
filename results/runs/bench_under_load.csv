@@ -1,0 +1,3 @@
+model,mean_ms,p95_ms,fps,map50_95
+yolo11n.pt,29.03,30.47,34.4,
+yolo11s.pt,29.97,33.3,33.4,

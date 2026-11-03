@@ -1,0 +1,2 @@
+model,mean_ms,p95_ms,fps,map50_95
+trt_b/yolo11n.engine,11.48,14.87,87.1,

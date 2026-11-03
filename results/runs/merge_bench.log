@@ -1,0 +1,46 @@
+nohup: ignoring input
+시작 전 보드 RAM 5804.0MB
+/home/team2-2/eg2/lib/python3.12/site-packages/torch/cuda/__init__.py:371: UserWarning: Found GPU0 Orin which is of compute capability (CC) 8.7.
+The following list shows the CCs this version of PyTorch was built for and the hardware CCs it supports:
+- 8.0 which supports hardware CC >=8.0,<9.0 except {8.7}
+- 9.0 which supports hardware CC >=9.0,<10.0
+- 10.0 which supports hardware CC >=10.0,<11.0 except {10.1}
+- 11.0 which supports hardware CC >=11.0,<12.0
+- 12.0 which supports hardware CC >=12.0,<13.0
+  _warn_unsupported_code(d, device_cc, code_ccs)
+/home/team2-2/eg2/lib/python3.12/site-packages/torch/cuda/__init__.py:371: UserWarning: Found GPU0 Orin which is of compute capability (CC) 8.7.
+The following list shows the CCs this version of PyTorch was built for and the hardware CCs it supports:
+- 8.0 which supports hardware CC >=8.0,<9.0 except {8.7}
+- 9.0 which supports hardware CC >=9.0,<10.0
+- 10.0 which supports hardware CC >=10.0,<11.0 except {10.1}
+- 11.0 which supports hardware CC >=11.0,<12.0
+- 12.0 which supports hardware CC >=12.0,<13.0
+  _warn_unsupported_code(d, device_cc, code_ccs)
+/home/team2-2/eg2/lib/python3.12/site-packages/torch/cuda/__init__.py:371: UserWarning: Found GPU0 Orin which is of compute capability (CC) 8.7.
+The following list shows the CCs this version of PyTorch was built for and the hardware CCs it supports:
+- 8.0 which supports hardware CC >=8.0,<9.0 except {8.7}
+- 9.0 which supports hardware CC >=9.0,<10.0
+- 10.0 which supports hardware CC >=10.0,<11.0 except {10.1}
+- 11.0 which supports hardware CC >=11.0,<12.0
+- 12.0 which supports hardware CC >=12.0,<13.0
+  _warn_unsupported_code(d, device_cc, code_ccs)
+A 따로 (프로세스 3개) {"ram_inc": 1214.5, "rss": 3356.4375, "gpu": 57.33802816901409, "tasks": {"occ": {"rate": 1.0, "p50": 44.7843074798584, "p95": 65.86146354675293, "target": 1.0}, "line": {"rate": 15.0, "p50": 37.6737117767334, "p95": 49.764394760131836, "target": 15.0}, "dist": {"rate": 8.866666666666667, "p50": 111.7854118347168, "p95": 121.67167663574219, "target": 15.0}}}
+/home/team2-2/eg2/lib/python3.12/site-packages/torch/cuda/__init__.py:371: UserWarning: Found GPU0 Orin which is of compute capability (CC) 8.7.
+The following list shows the CCs this version of PyTorch was built for and the hardware CCs it supports:
+- 8.0 which supports hardware CC >=8.0,<9.0 except {8.7}
+- 9.0 which supports hardware CC >=9.0,<10.0
+- 10.0 which supports hardware CC >=10.0,<11.0 except {10.1}
+- 11.0 which supports hardware CC >=11.0,<12.0
+- 12.0 which supports hardware CC >=12.0,<13.0
+  _warn_unsupported_code(d, device_cc, code_ccs)
+B 합침 (프로세스 1개) {"ram_inc": -143.0, "rss": 1692.76953125, "gpu": 59.75735294117647, "tasks": {"occ": {"rate": 1.0, "p50": 54.265737533569336, "p95": 63.9798641204834, "target": 1.0}, "line": {"rate": 15.0, "p50": 38.74778747558594, "p95": 62.752723693847656, "target": 15.0}, "dist": {"rate": 7.5, "p50": 133.22973251342773, "p95": 152.05645561218262, "target": 15.0}}}
+### 과제 6 심화 — 세 프로그램 합치기: 모델 공유 전후 자원 (실측)
+
+| 방식 | 보드 RAM 증가 (MB) | 프로세스 RSS 합 (MB) | GPU 사용률 평균 | 재실 (1회/초) | 통행 (15회/초) | 거리 (15회/초) |
+|---|---|---|---|---|---|---|
+| A 따로 (프로세스 3개) | 1214 | 3356 | 57% | 1.0회/초 · p50 45ms · p95 66ms | 15.0회/초 · p50 38ms · p95 50ms | 8.9회/초 · p50 112ms · p95 122ms |
+| B 합침 (프로세스 1개) | -143 | 1693 | 60% | 1.0회/초 · p50 54ms · p95 64ms | 15.0회/초 · p50 39ms · p95 63ms | 7.5회/초 · p50 133ms · p95 152ms |
+
+합치니 보드 RAM 증가량 1214 → -143MB (112% 감소), RSS 합 3356 → 1693MB.
+
+측정 조건 — 젯슨 MAXN_SUPER, yolo11n.pt PyTorch(CUDA), 입력 bus.jpg 1280x720 고정, 거리 작업은 640x360 SGBM(64 시차) 추가, 방식마다 워밍업 20초 뒤 60초 측정. 보드 RAM 증가 = 측정 중 tegrastats RAM 중앙값 − 시작 전 값(다른 프로그램 포함 보드 전체). 합침 방식은 통행·거리가 640 모델 하나를 잠금으로 번갈아 씀.
